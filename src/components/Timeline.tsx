@@ -37,7 +37,6 @@ dayjs.updateLocale("en", {
 
 function useScrollPosition() {
   const [scrollPosition, setScrollPosition] = useState(0);
-  console.log('hi')
 
   function handleScroll() {
     const height =
